@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Responsive design for mobile and desktop -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Submit Name</title>
+
+    <!-- Optional: Some basic styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-top: 1em;
+        }
+        input[type="text"] {
+            padding: 0.5em;
+            font-size: 1em;
+        }
+        button {
+            padding: 0.5em 1em;
+            font-size: 1em;
+            margin-left: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Title -->
+    <h1>Submit Your Name</h1>
+
+    <!-- Form that sends a POST request to the same route -->
+    <form method="POST">
+        <!-- Input field for name (required) -->
+        <input type="text" name="name" placeholder="Enter your name" required>
+        
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
